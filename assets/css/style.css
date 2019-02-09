@@ -47,9 +47,10 @@ nav a:last-child {
 /* body */
 			
 .jumbotron {
-	background-image: url("../images/light-grey-terrazzo.png");
-	background-color: rgba(255,255,255,0.30);
-  background-blend-mode: lighten;
+	/* background-image: url("../images/light-grey-terrazzo.png"); */
+	background-image: url("../images/code-bg.jpg");
+	/* background-color: rgba(255,255,255,0.10); */
+  /* background-blend-mode: lighten; */
   background-size: contain;
 	border-radius: 0;
 	border-top: 2px solid #ddd;
