@@ -4,8 +4,10 @@ body {
 	color: #777;
 }
 
-h1, h2, h3 {
-	color: #4aaaa5;	
+h1,
+h2,
+h3 {
+	color: #4aaaa5;
 }
 
 a {
@@ -13,23 +15,21 @@ a {
 }
 
 a:hover {
-  color: #4aaaa5;
-  font-weight: bold;
-  text-decoration: none;
+	color: #4aaaa5;
+	font-weight: bold;
+	text-decoration: none;
 }
 
 /* nav */
 
-.col-sm-4 {
+#name {
 	background: #4aaaa5;
 	color: white;
 	margin-bottom: 0;
 	padding: 20px;
 }
 
-/* name */
-
-.col-sm-8 {
+nav {
 	padding-top: 30px;
 }
 
@@ -45,57 +45,82 @@ nav a:last-child {
 }
 
 /* body */
-			
+
 .jumbotron {
-	/* background-image: url("../images/light-grey-terrazzo.png"); */
 	background-image: url("../images/code-bg.jpg");
-	/* background-color: rgba(255,255,255,0.10); */
-  /* background-blend-mode: lighten; */
-  background-size: contain;
+	background-size: contain;
 	border-radius: 0;
 	border-top: 2px solid #ddd;
-  height: 100vh;
+	height: 100vh;
 }
 
-section.container {
+.portfolio {
 	background: white;
-	border: 2px solid #ddd;
-	padding: 15px 20px;
 }
 
 hr {
 	border: 1px solid #ddd;
 }
 
+.main-section {
+	background: white;
+	padding: 20px;
+	border: 2px solid #ddd;
+}
+
 /* about */
 
 .main-image {
-	width: 215px;
-	margin: 0 20px 20px 0;
+	width: 200px;
+	margin: 5px 10px 2px 0px;
+}
+
+.bio {
+	padding: 10px 30px 10px 20px;
 }
 
 /* portfolio images */
 
 .col img {
-  margin: 10px auto 20px auto;
-  display: block;
+	margin: 10px auto 20px auto;
+	display: block;
 }
 
 .col img:hover {
-  opacity: 0.7;
+	opacity: 0.7;
 }
 
 /* contact form */
 
 .btn-primary {
-  background: #4aaaa5;
-  border: none;
+	background: #4aaaa5;
+	border: none;
 }
 
 .btn-primary:hover {
-  background: #666666;
+	background: black;
 }
 
+/* card */
+
+.card {
+	height: 140px;
+	margin-left: 20px;
+}
+
+.fa {
+	color: white;
+	padding: 20px;
+	font-size: 30px;
+	text-align: center;
+	text-decoration: none;
+	border-radius: 50%;
+	background: #4aaaa5;
+}
+
+.fa:hover {
+	color: black;
+}
 
 
 /* footer */
@@ -110,4 +135,3 @@ footer p {
 	font-size: .75em;
 	padding-top: 15px;
 }
-
